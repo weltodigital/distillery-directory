@@ -33,7 +33,7 @@ export default function BreweryCountyPage({ params }: CountyPageProps) {
       try {
         console.log('Starting brewery data loading for county:', resolvedParams.county)
 
-        const response = await fetch('/Distill Directory - Sheet1.csv')
+        const response = await fetch('/establishments.csv')
         const csvContent = await response.text()
         console.log('CSV loaded, length:', csvContent.length)
 

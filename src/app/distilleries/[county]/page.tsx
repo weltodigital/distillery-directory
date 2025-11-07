@@ -31,7 +31,7 @@ export default function DistilleryCountyPage({ params }: CountyPageProps) {
 
     const loadDistilleriesForCounty = async () => {
       try {
-        const response = await fetch('/Distill Directory - Sheet1.csv')
+        const response = await fetch('/establishments.csv')
         const csvContent = await response.text()
         const allEstablishments = csvToEstablishments(csvContent)
         const distilleryData = allEstablishments.filter(est => est.categoryName === 'Distillery')
