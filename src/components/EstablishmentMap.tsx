@@ -82,7 +82,8 @@ export default function EstablishmentMap({ establishments, className = '' }: Est
 
       // Fit map to show all markers
       if (validEstablishments.length > 1) {
-        const group = new L.featureGroup(validEstablishments.map(est => L.marker(est.coordinates!)))
+        const markers = validEstablishments.map(est => (L as any).marker(est.coordinates!))
+        const group = new (L as any).featureGroup(markers)
         map.fitBounds(group.getBounds().pad(0.1))
       }
 
