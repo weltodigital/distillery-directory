@@ -201,7 +201,7 @@ export const cityToCounty: Record<string, { county: string; country: string }> =
 
   // Hertfordshire
   'Ware': { county: 'Hertfordshire', country: 'England' },
-  'Bishop\'s Stortford': { county: 'Hertfordshire', country: 'England' },
+  'Bishops Stortford': { county: 'Hertfordshire', country: 'England' },
 
   // Bedfordshire
   'Bedford': { county: 'Bedfordshire', country: 'England' },
@@ -268,7 +268,7 @@ export const cityToCounty: Record<string, { county: string; country: string }> =
 
   // Isles of Scilly
   'Isles of Scilly': { county: 'Isles of Scilly', country: 'England' },
-  'St Mary\'s': { county: 'Isles of Scilly', country: 'England' },
+  'St Marys': { county: 'Isles of Scilly', country: 'England' },
 
   // Isle of Wight
   'Sandown': { county: 'Isle of Wight', country: 'England' },
