@@ -718,7 +718,6 @@ export function getEstablishmentCoordinates(establishment: Establishment): [numb
     'Girvan': [55.2439, -4.8553],
     'Grantown-on-Spey': [57.3264, -3.6053],
     'Greenock': [55.9486, -4.7642],
-    'Hungerford': [51.4139, -1.5181],
     'Invergordon': [57.6847, -4.1800],
     'Inverurie': [57.2822, -2.3742],
     'Isle of Arran': [55.5833, -5.2500],
